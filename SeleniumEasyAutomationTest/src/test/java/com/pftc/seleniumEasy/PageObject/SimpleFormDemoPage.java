@@ -36,7 +36,8 @@ public class SimpleFormDemoPage extends Base {
 	@FindBy(id = "displayvalue")
 	public WebElement total;
 	
-	public void inputFormsButton2() {
+
+	public void inputFormsButton() {
 		inputForms.click();
 	}
 
