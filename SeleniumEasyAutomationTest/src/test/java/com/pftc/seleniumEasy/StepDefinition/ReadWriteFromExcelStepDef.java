@@ -29,7 +29,17 @@ public class ReadWriteFromExcelStepDef extends Base{
 	}
 	
 	
-	
+	@Given("^User Read data form Excel File$")
+	public void user1_Read_data_form_Excel_File() throws Exception{	
+		
+		ReadWriteFromExcel readWriteFromExcel=new ReadWriteFromExcel();
+		String b= readWriteFromExcel.readExcel("TestData.xlsx",1, 6, 1);
+		String total= readWriteFromExcel.readExcel("TestData.xlsx",1, 6, 2);
+		
+		System.out.println(b);
+		System.out.println(total);
+		
+	}
 	
 	
 	
