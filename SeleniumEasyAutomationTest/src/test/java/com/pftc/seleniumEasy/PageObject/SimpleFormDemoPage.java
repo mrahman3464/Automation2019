@@ -44,9 +44,7 @@ public class SimpleFormDemoPage extends Base {
 		simpleFormDemo.click();
 	}
 
-		public void simpleFormDemoRadio() {
-		simpleFormDemoRadio.click();
-	}
+	
 	
 	public void enterMessageTextBox() {
 		enterMessageBox.sendKeys("Testing Simple Form Demo Single Input Field");
