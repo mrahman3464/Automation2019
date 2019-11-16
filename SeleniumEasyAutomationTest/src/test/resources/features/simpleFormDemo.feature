@@ -2,7 +2,7 @@ Feature: As a user I should be able to verify the  Single and Two Input field fu
 
 #Author:mohdmhaque@gmail.com
 #Date:09/16/2019
-@smoke
+@smoke @Regression
 Scenario: Verify Single and Double Input Field Functionalities 
 	Given User Navigate to SeleniumEasy Test Home Page 
 	When User Click on Input Forms hyperlink tab 
